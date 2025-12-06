@@ -57,10 +57,13 @@ export default async function middleware(req: NextRequest) {
   // const session = await getSession();
   let isLoggedIn = false;
   try {
+    // Use the request URL to construct the base URL for API calls
+    // This ensures we use the correct hostname in production
+    const baseURL = process.env.NEXT_PUBLIC_BASE_URL || `${nextUrl.protocol}//${nextUrl.host}`;
     const { data: session } = await betterFetch<Session>(
       '/api/auth/get-session',
       {
-        baseURL: getBaseUrl(),
+        baseURL,
         headers: {
           cookie: req.headers.get('cookie') || '', // Forward the cookies from the request
         },
