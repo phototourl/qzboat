@@ -59,9 +59,11 @@ export default function HeroSection() {
                     className="hover:scale-105 mx-auto flex w-fit items-center transition-transform"
                   >
                     <img
-                      src="https://phototourl.com/og-image.png"
+                      src="/badge-phototourl.svg"
                       alt="Photo to URL"
-                      className="h-16 w-auto min-w-[280px]"
+                      width={250}
+                      height={54}
+                      className="h-8 w-auto"
                     />
                   </a>
                 </AnimatedGroup>

@@ -94,6 +94,20 @@ export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
           </span>
 
           <div className="flex items-center gap-x-4">
+            <a
+              href="https://phototourl.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="/badge-phototourl.svg"
+                alt="Photo to URL"
+                width={250}
+                height={54}
+                className="h-6 w-auto"
+              />
+            </a>
             <ModeSwitcherHorizontal />
           </div>
         </Container>
