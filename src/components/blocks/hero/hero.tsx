@@ -3,7 +3,6 @@ import { AnimatedGroup } from '@/components/tailark/motion/animated-group';
 import { TextEffect } from '@/components/tailark/motion/text-effect';
 import { Button } from '@/components/ui/button';
 import { LocaleLink } from '@/i18n/navigation';
-import { ArrowRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
@@ -29,7 +28,6 @@ const transitionVariants = {
 
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
-  const linkIntroduction = 'https://phototourl.com/';
   const linkPrimary = 'https://phototourl.com/';
   const linkSecondary = 'https://circlecropimage.qzboat.com/';
 
@@ -52,29 +50,20 @@ export default function HeroSection() {
               <Ripple />
 
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
-                {/* introduction */}
+                {/* Photo to URL Badge */}
                 <AnimatedGroup variants={transitionVariants}>
-                  <LocaleLink
-                    href={linkIntroduction}
+                  <a
+                    href="https://phototourl.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:bg-accent group mx-auto flex w-fit items-center gap-2 rounded-full border p-1 pl-4"
+                    className="hover:scale-105 mx-auto flex w-fit items-center transition-transform"
                   >
-                    <span className="text-foreground text-sm">
-                      {t('introduction')}
-                    </span>
-
-                    <div className="size-6 overflow-hidden rounded-full duration-500">
-                      <div className="flex w-12 -translate-x-1/2 duration-500 ease-in-out group-hover:translate-x-0">
-                        <span className="flex size-6">
-                          <ArrowRight className="m-auto size-3" />
-                        </span>
-                        <span className="flex size-6">
-                          <ArrowRight className="m-auto size-3" />
-                        </span>
-                      </div>
-                    </div>
-                  </LocaleLink>
+                    <img
+                      src="https://phototourl.com/og-image.png"
+                      alt="Photo to URL"
+                      className="h-16 w-auto min-w-[280px]"
+                    />
+                  </a>
                 </AnimatedGroup>
 
                 {/* title */}

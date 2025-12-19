@@ -12,12 +12,17 @@ export function getBaseUrl(): string {
     return process.env.NEXT_PUBLIC_BASE_URL;
   }
 
-  // 2. Try to detect from Vercel deployment URL
+  // 2. In browser/client, use window.location.origin to avoid CORS issues
+  if (typeof window !== 'undefined') {
+    return window.location.origin;
+  }
+
+  // 3. Try to detect from Vercel deployment URL (server-side)
   if (process.env.VERCEL_URL) {
     return `https://${process.env.VERCEL_URL}`;
   }
 
-  // 3. Fallback to localhost for development
+  // 4. Fallback to localhost for development (server-side)
   return `http://localhost:${process.env.PORT ?? 3000}`;
 }
 
