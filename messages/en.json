@@ -478,6 +478,9 @@
           "privacyPolicy": "Privacy Policy",
           "termsOfService": "Terms of Service"
         }
+      },
+      "relatedProducts": {
+        "title": "Related Products"
       }
     },
     "avatar": {
@@ -786,8 +789,8 @@
       "title": "qzboat - Making AI Innovation Accessible",
       "description": "qzboat is a professional AI SaaS platform providing powerful AI tools and services. We are committed to helping businesses and developers quickly build innovative AI applications, making technology simpler and innovation more efficient.",
       "introduction": "Explore qzboat Products",
-      "primary": "Circle Crop Image",
-      "secondary": "Discord Wrapped"
+      "primary": "Photo to URL",
+      "secondary": "Circle Crop Image"
     },
     "logocloud": {
       "title": "Your favorite companies are our partners"

@@ -478,6 +478,9 @@
           "privacyPolicy": "隐私政策",
           "termsOfService": "服务条款"
         }
+      },
+      "relatedProducts": {
+        "title": "相关产品"
       }
     },
     "avatar": {
@@ -786,8 +789,8 @@
       "title": "青舟 - 让 AI 创新触手可及",
       "description": "青舟是一个专业的 AI SaaS 平台，提供强大的 AI 工具和服务。我们致力于帮助企业和开发者快速构建创新的 AI 应用，让技术更简单，让创新更高效。",
       "introduction": "探索青舟产品",
-      "primary": "圆形图片裁剪工具",
-      "secondary": "Discord Wrapped"
+      "primary": "图片转链接",
+      "secondary": "圆形图片裁剪工具"
     },
     "logocloud": {
       "title": "您最爱公司都是我们的合作伙伴"

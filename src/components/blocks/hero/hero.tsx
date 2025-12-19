@@ -29,9 +29,9 @@ const transitionVariants = {
 
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
-  const linkIntroduction = 'https://circlecropimage.qzboat.com/';
-  const linkPrimary = 'https://circlecropimage.qzboat.com/';
-  const linkSecondary = 'https://discordwarpped.qzboat.com/';
+  const linkIntroduction = 'https://phototourl.com/';
+  const linkPrimary = 'https://phototourl.com/';
+  const linkSecondary = 'https://circlecropimage.qzboat.com/';
 
   return (
     <>
