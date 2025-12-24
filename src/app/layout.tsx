@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import type { Metadata, ReactNode } from 'react';
 
 interface Props {
   children: ReactNode;
@@ -10,6 +10,12 @@ interface Props {
  *
  * https://next-intl.dev/docs/environments/error-files#catching-non-localized-requests
  */
+export const metadata: Metadata = {
+  other: {
+    'baidu-site-verification': 'codeva-EK0eG9SVYL',
+  },
+};
+
 export default function RootLayout({ children }: Props) {
   return children;
 }

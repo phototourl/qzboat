@@ -38,6 +38,14 @@ export default async function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
+  // Skip middleware for Baidu site verification crawler to avoid 301 redirect
+  // Baidu requires pages to return 200 status code directly, not redirects
+  const userAgent = req.headers.get('user-agent') || '';
+  if (userAgent.includes('Baiduspider') || userAgent.includes('baidu')) {
+    console.log('<< middleware end, skipping Baidu crawler');
+    return NextResponse.next();
+  }
+
   // Handle internal docs link redirection for internationalization
   // Check if this is a docs page without locale prefix
   if (nextUrl.pathname.startsWith('/docs/') || nextUrl.pathname === '/docs') {

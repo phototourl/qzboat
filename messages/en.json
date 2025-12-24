@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "qzboat",
-    "title": "qzboat - Professional AI SaaS Platform",
-    "description": "qzboat is a professional AI SaaS platform dedicated to providing powerful AI tools and services for businesses and developers, making innovation simple and efficient."
+    "name": "QzBoat",
+    "title": "QzBoat - Professional AI SaaS Platform",
+    "description": "QzBoat is a professional AI SaaS platform dedicated to providing powerful AI tools and services for businesses and developers, making innovation simple and efficient."
   },
   "Common": {
     "premium": "Premium",
@@ -144,10 +144,10 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "qzboat is a professional AI SaaS platform dedicated to providing powerful AI tools and services for businesses and developers.",
-    "authorName": "qzboat",
+    "description": "QzBoat is a professional AI SaaS platform dedicated to providing powerful AI tools and services for businesses and developers.",
+    "authorName": "QzBoat",
     "authorBio": "Professional AI SaaS Platform",
-    "introduction": "👋 Hi there! This is qzboat. We are a professional AI SaaS platform dedicated to providing powerful AI tools and services for businesses and developers. We believe AI technology should be accessible to everyone, making innovation simple and efficient. If you have any questions or suggestions, please feel free to contact us.",
+    "introduction": "👋 Hi there! This is QzBoat. We are a professional AI SaaS platform dedicated to providing powerful AI tools and services for businesses and developers. We believe AI technology should be accessible to everyone, making innovation simple and efficient. If you have any questions or suggestions, please feel free to contact us.",
     "talkWithMe": "Talk with me",
     "followMe": "Follow me on X"
   },
@@ -292,7 +292,7 @@
     "previousPage": "Previous",
     "nextPage": "Next",
     "chooseLanguage": "Select language",
-    "title": "qzboat Docs",
+    "title": "QzBoat Docs",
     "homepage": "Homepage"
   },
   "PremiumContent": {
@@ -783,12 +783,12 @@
     }
   },
   "HomePage": {
-    "title": "qzboat",
+    "title": "QzBoat",
     "description": "Make AI SaaS in days, simply and effortlessly",
     "hero": {
-      "title": "qzboat - Making AI Innovation Accessible",
-      "description": "qzboat is a professional AI SaaS platform providing powerful AI tools and services. We are committed to helping businesses and developers quickly build innovative AI applications, making technology simpler and innovation more efficient.",
-      "introduction": "Explore qzboat Products",
+      "title": "QzBoat - Making AI Innovation Accessible",
+      "description": "QzBoat is a professional AI SaaS platform providing powerful AI tools and services. We are committed to helping businesses and developers quickly build innovative AI applications, making technology simpler and innovation more efficient.",
+      "introduction": "Explore QzBoat Products",
       "primary": "Photo to URL",
       "secondary": "Circle Crop Image"
     },
@@ -935,7 +935,7 @@
           "name": "Jonathan Yombo",
           "role": "Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "qzboat is really extraordinary and very practical, no need to break your head. A real gold mine."
+          "quote": "QzBoat is really extraordinary and very practical, no need to break your head. A real gold mine."
         },
         "item-2": {
           "name": "Yves Kalume",
@@ -947,19 +947,19 @@
           "name": "Yucel Faruksahan",
           "role": "Tailkits Creator",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on qzboat platform. This is one of the best AI SaaS platforms that I have seen so far :)"
+          "quote": "Great work on QzBoat platform. This is one of the best AI SaaS platforms that I have seen so far :)"
         },
         "item-4": {
           "name": "Anonymous author",
           "role": "Product Manager",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "qzboat platform provides a very intuitive and user-friendly interface that allows me to quickly get started and create professional AI applications. Their tools are designed to be very user-friendly, making them easy to use even without much technical background."
+          "quote": "QzBoat platform provides a very intuitive and user-friendly interface that allows me to quickly get started and create professional AI applications. Their tools are designed to be very user-friendly, making them easy to use even without much technical background."
         },
         "item-5": {
           "name": "Shekinah Tshiokufila",
           "role": "Senior Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "qzboat is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+          "quote": "QzBoat is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
         },
         "item-6": {
           "name": "Oketa Fred",
@@ -971,44 +971,44 @@
           "name": "Zeki",
           "role": "Founder of ChatExtend",
           "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "qzboat is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+          "quote": "QzBoat is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
         },
         "item-8": {
           "name": "Joseph Kitheka",
           "role": "Fullstack Developer",
           "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "qzboat has transformed the way I develop AI applications. Their extensive collection of AI tools and services has significantly accelerated my workflow."
+          "quote": "QzBoat has transformed the way I develop AI applications. Their extensive collection of AI tools and services has significantly accelerated my workflow."
         },
         "item-9": {
           "name": "Khatab Wedaa",
           "role": "MerakiUI Creator",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "qzboat is an elegant, clean, and responsive AI SaaS platform that's very helpful to start fast with your AI projects."
+          "quote": "QzBoat is an elegant, clean, and responsive AI SaaS platform that's very helpful to start fast with your AI projects."
         },
         "item-10": {
           "name": "Rodrigo Aguilar",
           "role": "TailwindAwesome Creator",
           "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love qzboat ❤️. The platform is well-structured, simple to use, and beautifully designed. It makes it really easy to build powerful AI applications in no time."
+          "quote": "I love QzBoat ❤️. The platform is well-structured, simple to use, and beautifully designed. It makes it really easy to build powerful AI applications in no time."
         },
         "item-11": {
           "name": "Eric Ampire",
           "role": "@GoogleDevExpert for Android",
           "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "qzboat platform is the perfect solution for anyone who wants to create powerful AI applications without extensive technical experience."
+          "quote": "QzBoat platform is the perfect solution for anyone who wants to create powerful AI applications without extensive technical experience."
         },
         "item-12": {
           "name": "Roland Tubonge",
           "role": "Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "qzboat is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+          "quote": "QzBoat is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
         }
       }
     },
     "stats": {
       "title": "Stats",
-      "subtitle": "qzboat in numbers",
-      "description": "qzboat makes AI innovation simple and efficient",
+      "subtitle": "QzBoat in numbers",
+      "description": "QzBoat makes AI innovation simple and efficient",
       "items": {
         "item-1": {
           "title": "Stars on GitHub"
@@ -1023,7 +1023,7 @@
     },
     "calltoaction": {
       "title": "Start Building",
-      "description": "qzboat makes AI innovation simple and efficient",
+      "description": "QzBoat makes AI innovation simple and efficient",
       "primaryButton": "Get Started",
       "secondaryButton": "See Demo"
     }
@@ -1079,18 +1079,18 @@
   },
   "AIImagePage": {
     "title": "AI Image",
-    "description": "qzboat lets you make AI SaaS in days, simply and effortlessly"
+    "description": "QzBoat lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIChatPage": {
     "title": "AI Chat",
-    "description": "qzboat lets you make AI SaaS in days, simply and effortlessly"
+    "description": "QzBoat lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIVideoPage": {
     "title": "AI Video",
-    "description": "qzboat lets you make AI SaaS in days, simply and effortlessly"
+    "description": "QzBoat lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIAudioPage": {
     "title": "AI Audio",
-    "description": "qzboat lets you make AI SaaS in days, simply and effortlessly"
+    "description": "QzBoat lets you make AI SaaS in days, simply and effortlessly"
   }
 }

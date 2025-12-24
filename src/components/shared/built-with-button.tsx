@@ -17,7 +17,7 @@ export default function BuiltWithButton() {
       <span>
         <Logo className="size-5" />
       </span>
-      <span className="font-semibold">qzboat</span>
+      <span className="font-semibold">QzBoat</span>
     </Link>
   );
 }

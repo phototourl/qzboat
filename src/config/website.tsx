@@ -27,11 +27,11 @@ export const websiteConfig: WebsiteConfig = {
     social: {
       github: 'https://github.com/phototourl',
       twitter: 'https://x.com/phototourl',
-      blueSky: 'https://www.qzboat.com/bsky',
-      discord: 'https://www.qzboat.com/discord',
-      mastodon: 'https://www.qzboat.com/mastodon',
-      linkedin: 'https://www.qzboat.com/linkedin',
-      youtube: 'https://www.qzboat.com/youtube',
+      blueSky: '',
+      discord: '',
+      mastodon: '',
+      linkedin: '',
+      youtube: '',
     },
   },
   features: {

@@ -62,7 +62,15 @@ export function constructMetadata({
       title,
       description,
       images: [ogImageUrl.toString()],
-      site: getBaseUrl(),
+      site: (() => {
+        const twitterUrl = websiteConfig.metadata.social?.twitter;
+        if (twitterUrl) {
+          // Extract username from URL like https://x.com/phototourl or https://twitter.com/phototourl
+          const match = twitterUrl.match(/(?:x\.com|twitter\.com)\/([^/]+)/);
+          return match ? `@${match[1]}` : '@phototourl';
+        }
+        return '@phototourl';
+      })(),
     },
     icons: {
       icon: '/qzboatlogo.png',
