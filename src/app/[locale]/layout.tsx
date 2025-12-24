@@ -44,6 +44,7 @@ export default async function LocaleLayout({
   return (
     <html suppressHydrationWarning lang={locale}>
       <head>
+        <meta name="baidu-site-verification" content="codeva-EK0eG9SVYL" />
         <AffonsoScript />
         <PromotekitScript />
       </head>
