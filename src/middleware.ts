@@ -31,6 +31,13 @@ export default async function middleware(req: NextRequest) {
   const { nextUrl } = req;
   console.log('>> middleware start, pathname', nextUrl.pathname);
 
+  // Skip middleware for Baidu verification file to avoid 301 redirect
+  // Baidu requires the verification file to return 200 status code directly
+  if (nextUrl.pathname === '/baidu_verify_codeva-EK0eG9SVYL.html') {
+    console.log('<< middleware end, skipping Baidu verification file');
+    return NextResponse.next();
+  }
+
   // Handle internal docs link redirection for internationalization
   // Check if this is a docs page without locale prefix
   if (nextUrl.pathname.startsWith('/docs/') || nextUrl.pathname === '/docs') {
