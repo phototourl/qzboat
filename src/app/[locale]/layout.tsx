@@ -9,6 +9,7 @@ import AffonsoScript from '@/components/affiliate/affonso';
 import PromotekitScript from '@/components/affiliate/promotekit';
 import { routing } from '@/i18n/routing';
 import { cn } from '@/lib/utils';
+import type { Metadata } from 'next';
 import { type Locale, NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { NuqsAdapter } from 'nuqs/adapters/next/app';
@@ -17,6 +18,12 @@ import { Toaster } from 'sonner';
 import { Providers } from './providers';
 
 import '@/styles/globals.css';
+
+export const metadata: Metadata = {
+  other: {
+    'baidu-site-verification': 'codeva-EK0eG9SVYL',
+  },
+};
 
 interface LocaleLayoutProps {
   children: ReactNode;
@@ -44,7 +51,6 @@ export default async function LocaleLayout({
   return (
     <html suppressHydrationWarning lang={locale}>
       <head>
-        <meta name="baidu-site-verification" content="codeva-EK0eG9SVYL" />
         <AffonsoScript />
         <PromotekitScript />
       </head>
