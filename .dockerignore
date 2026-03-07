@@ -14,3 +14,8 @@ node_modules
 **/node_modules
 Dockerfile
 LICENSE
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
