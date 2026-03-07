@@ -28,7 +28,7 @@ Copy `env.example` to `.env.local` (or set in Vercel):
 Check out our other tools:
 - [Photo to URL](https://phototourl.com) - Turn photos into shareable links
 - [Photo to Circle Crop](https://phototourl.com/circle-crop) - Round the corners of images
-- [Photo to rounded corners](https://phototourl.com/rounded-corners) - Personalized Discord stats
+- [Photo to Rounded Corners](https://phototourl.com/rounded-corners) - Personalized Discord stats
 
 ## License
 
