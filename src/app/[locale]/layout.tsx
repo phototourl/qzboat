@@ -63,6 +63,30 @@ export default async function LocaleLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4341915232925745"
           crossOrigin="anonymous"
         />
+        {/* Profitable CPM Network Ads */}
+        <script src="https://pl29089413.profitablecpmratenetwork.com/4b/f7/c8/4bf7c8b9ddd34f788eddf5e81c886f8f.js" async />
+        <script
+          async
+          data-cfasync="false"
+          src="https://pl29089414.profitablecpmratenetwork.com/91ffdb80d3c682a176ab95428b88e907/invoke.js"
+        />
+        <div id="container-91ffdb80d3c682a176ab95428b88e907" />
+        <script src="https://pl29089416.profitablecpmratenetwork.com/40/8a/72/408a725a198373f42ba890abf894b874.js" async />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `atOptions = {
+              'key' : '93cd993fc41588cfd59acdad55ce95d7',
+              'format' : 'iframe',
+              'height' : 300,
+              'width' : 160,
+              'params' : {}
+            };`,
+          }}
+        />
+        <script
+          async
+          src="https://www.highperformanceformat.com/93cd993fc41588cfd59acdad55ce95d7/invoke.js"
+        />
       </head>
       <body
         suppressHydrationWarning
