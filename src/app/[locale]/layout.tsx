@@ -64,14 +64,18 @@ export default async function LocaleLayout({
           crossOrigin="anonymous"
         />
         {/* Profitable CPM Network Ads */}
+        {/* Popunder_1 - JS SYNC */}
         <script src="https://pl29089413.profitablecpmratenetwork.com/4b/f7/c8/4bf7c8b9ddd34f788eddf5e81c886f8f.js" async />
+        {/* SocialBar_1 - JS SYNC */}
+        <script src="https://pl29089416.profitablecpmratenetwork.com/40/8a/72/408a725a198373f42ba890abf894b874.js" async />
+        {/* NativeBanner_1 - NATIVE ASYNC */}
         <script
-          async
+          async="async"
           data-cfasync="false"
           src="https://pl29089414.profitablecpmratenetwork.com/91ffdb80d3c682a176ab95428b88e907/invoke.js"
         />
         <div id="container-91ffdb80d3c682a176ab95428b88e907" />
-        <script src="https://pl29089416.profitablecpmratenetwork.com/40/8a/72/408a725a198373f42ba890abf894b874.js" async />
+        {/* 160x300_1 - IFRAME SYNC */}
         <script
           dangerouslySetInnerHTML={{
             __html: `atOptions = {
@@ -83,9 +87,12 @@ export default async function LocaleLayout({
             };`,
           }}
         />
+        <script src="https://www.highperformanceformat.com/93cd993fc41588cfd59acdad55ce95d7/invoke.js" async />
+        {/* Smartlink_1 - DIRECT URL */}
         <script
-          async
-          src="https://www.highperformanceformat.com/93cd993fc41588cfd59acdad55ce95d7/invoke.js"
+          dangerouslySetInnerHTML={{
+            __html: `window.location = "https://www.profitablecpmratenetwork.com/y33jcufc?key=0e9a5792ed6ae5107f58c5819081fe11";`,
+          }}
         />
       </head>
       <body
